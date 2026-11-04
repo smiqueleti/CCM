@@ -18,3 +18,22 @@ Optional URL parameters:
 
 All data, tool calls and results are predefined and fictitious. Nothing connects to Celonis, SAP or Microsoft services.
 The pages are recreations for demonstration; product names and logos belong to their owners.
+
+## MC Fresh Supply Chain demos (synthetic)
+
+Three connected pages for a fresh supply chain scenario.
+Everything is synthetic and simulated.
+The first two pages are Celonis views, and the third imitates an agent workspace.
+
+| # | Page | URL |
+|---|---|---|
+| 01 | Apollo builds the Context Model | https://smiqueleti.github.io/CCM/sonae-apollo.html |
+| 02 | How the agent consumes the Context Model | https://smiqueleti.github.io/CCM/sonae-agent-context.html |
+| 03 | Agent workspace: decide and act | https://smiqueleti.github.io/CCM/sonae-copilot-studio.html |
+
+Optional URL parameters:
+
+- `sonae-apollo.html?static=1` opens the finished model, `?auto=1` plays on its own, and `?scenario=stockout` opens with the strawberry stockout case highlighted.
+- `sonae-agent-context.html?scenario=stockout|waste` selects the validated stockout or the illustrative expiry what-if, and `?static=1` or `?auto=1` work as above.
+- `sonae-copilot-studio.html?tab=Test` opens a tab (`Overview`, `Tools`, `Instructions`, `Test`, `Evaluation`), and `&q=q1` to `&q=q6` asks a predefined question.
+
