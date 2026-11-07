@@ -37,3 +37,17 @@ Optional URL parameters:
 - `sonae-agent-context.html?scenario=stockout|waste` selects the validated stockout or the illustrative expiry what-if, and `?static=1` or `?auto=1` work as above.
 - `sonae-copilot-studio.html?tab=Test` opens a tab (`Overview`, `Tools`, `Instructions`, `Test`, `Evaluation`), and `&q=q1` to `&q=q6` asks a predefined question.
 
+
+## TIM Brasil NOI agent demo (synthetic)
+
+Microsoft Copilot Studio look-alike for the Network Operations recurrence and context agent.
+The data is demonstrative and simulated; none of the numbers are real TIM results.
+The agent is read-only and runs no action in operational systems.
+
+| Page | URL |
+|---|---|
+| Copilot Studio agent (pt-BR) | https://smiqueleti.github.io/CCM/tim-copilot-studio.html |
+
+Optional URL parameters:
+
+- `tim-copilot-studio.html?tab=Test` opens a tab (`Overview`, `Tools`, `Instructions`, `Test`, `Evaluation`), and `&demo=1` asks the first question automatically.
